@@ -1,23 +1,23 @@
 # LuckPerms Language File
-# Locale: en_US (English)
-# Author: Luck
+# Locale: it_IT (English)
+# Author: Heron4gf
 
 prefix: "&7&l[&b&lL&3&lP&7&l] "
-view-available-commands-prompt: "&3Use &a/{0} help &3to view available commands."
-no-permission-for-subcommands: "&3You do not have permission to use any sub commands."
+view-available-commands-prompt: "&3Usa &a/{0} help &3per vedere i comandi disponibili"
+no-permission-for-subcommands: "&3Non puoi usare nessun sottocomando"
 first-time-setup: >
-  {PREFIX}&3It seems that no permissions have been setup yet!\n
-  {PREFIX}&3Before you can use any of the LuckPerms commands in-game, you need to use the console to give yourself access.\n
-  {PREFIX}&3Open your console and run:\n
+  {PREFIX}&3Mhh sembrerebbe nessun permesso sia stato impostato!\n
+  {PREFIX}&3Prima di usare i comandi di LuckPerms in gioco, assegnati i permessi adeguati dalla console!\n
+  {PREFIX}&3Apri la tua console e digita:\n
   {PREFIX} &3&l> &a{0} user {1} permission set luckperms.* true\n
   \n
-  {PREFIX}&3After you've done this, you can begin to define your permission assignments and groups.\n
-  {PREFIX}&3Don't know where to start? Check here: &7https://github.com/lucko/LuckPerms/wiki/Usage
+  {PREFIX}&3Dopo che hai fatto ciò puoi iniziare a impostare i permessi per tutti gli altri giocatori\n
+  {PREFIX}&3Non sai dove mettere mano? Leggi questa guida: &7https://github.com/lucko/LuckPerms/wiki/Usage
 blank: "{0}"
 player-online: "&aOnline"
 player-offline: "&cOffline"
-loading-database-error: "&cA database error occurred whilst loading permissions data. Please try again later. If you are a server admin, please check the console for any errors."
-loading-state-error: "&cPermissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors."
+loading-database-error: "&cOps, ho riscontrato un problema con il database. Magari riprova più tardi. Se sei un amministratore leggi eventuali errori in console."
+loading-state-error: "&cI permessi del tuo utente non sono stati caricati nella fase pre-login - impossibile continuare. Magari riprova più tardi. Se sei un amministratore controlla la console per eventuali errori!"
 loading-state-error-cb-offline-mode: "&cPermissions data for your user was not loaded during the pre-login stage - this is likely due to a conflict between CraftBukkit and the online-mode setting. Please check the server console for more information."
 loading-setup-error: "&cAn unexpected error occurred whilst setting up your permissions data. Please try again later."
 op-disabled: "&bThe vanilla OP system is disabled on this server."
